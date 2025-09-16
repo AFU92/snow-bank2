@@ -49,3 +49,9 @@ end
 gem "dotenv-rails", "~> 3.1", groups: [:development, :test]
 
 gem "rspec-rails", "~> 8.0", groups: [:development, :test]
+
+gem "redis", "~> 5.4"
+
+gem "searchkick", "~> 5.5"
+
+gem "ruby-openai", "~> 8.3"
