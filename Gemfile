@@ -55,3 +55,10 @@ gem "redis", "~> 5.4"
 gem "searchkick", "~> 5.5"
 
 gem "ruby-openai", "~> 8.3"
+
+group :development, :test do
+  gem "rubocop", require: false
+  gem "rubocop-rails", require: false
+  gem "rubocop-rspec", require: false
+end
+
